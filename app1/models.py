@@ -7,7 +7,7 @@ class Car(models.Model):
 
     class Meta:
         verbose_name = _("cR")
-        verbose_name_plural = _("Cars this line is responsible for the conflict of the code")
+        verbose_name_plural = _("Cars Name Conflict")
 
     def __str__(self):
         return self.name
